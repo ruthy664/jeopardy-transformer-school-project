@@ -1,17 +1,12 @@
-# jepordy-transformer-school-project
-
-In this project, I created a transformer model able to classify the category of a given jepordy question. 
-
-While the accuracy was only 12% on the testing data, when examining the topics guessed by the model, in many cases the topic was a reasonable guess given the question.
-
-More information on this project is included in 
-
-
 # Jeopardy Question Topic Prediction
 
-## Project Overview
+This was the final school project for my senior seminar class. We were given different options for the final project, and I decided to go with the Jeopardy questions project.
 
-For this project, I decided to go with the Jeopardy questions project.
+For a more detailed discussion of the project development and experimentation, see the included Word document.
+
+Additionally, you can find and download the full project in the zip folder. You only need to run *JepordyQuestionsTraining* python file to see the results, but feel free to have a look at the other files. A list of dependencies is included at the bottom. 
+
+## Project Overview
 
 One thing I needed to decide for this project was how I was going to deal with the amount of data. I narrowed down the data to topics that were repeated more than 15 times and had around 1,500 categories left.
 
@@ -44,6 +39,13 @@ Another thing I used AI for was with the chunking during the word embedding proc
 
 Finally, I had some help from ChatGPT with the unembedding of the transformer.
 
----
+## Dependencies
 
-For a more detailed discussion of the project development and experimentation, see the included Word document.
+The project requires the following Python libraries:
+
+- TensorFlow
+- NumPy
+- spaCy
+- en_core_web_md (spaCy English medium model)
+
+The `string` and `pickle` modules are included in Python's standard library.
