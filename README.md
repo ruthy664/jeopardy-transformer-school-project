@@ -2,7 +2,7 @@
 
 This was the final school project for my senior seminar class. We were given different options for the final project, and I decided to go with the Jeopardy questions project.
 
-For a more detailed discussion of the project development and experimentation, see the included Word document.
+For a more detailed discussion of the project development and experimentation, see *Project Discussion.docx*.
 
 Additionally, you can find and download the full project in the zip folder. You only need to run *JepordyQuestionsTraining* python file to see the results, but feel free to have a look at the other files. A list of dependencies is included at the bottom. 
 
